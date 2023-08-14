@@ -1,0 +1,154 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    padding: 1%;
+    justify-content: flex-start;
+}
+
+.header {
+    background-color: #0C0C0C;
+    color:#20DD4A;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navigation {
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+footer {
+    background-color: #0C0C0C;
+    color: #20DD4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroimg {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.assets {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.softskills {
+    text-align: left;
+}
+
+.tools {
+    text-align: right;
+}
+
+.h1 {
+    color: #00D4FF;
+    text-align: center;
+}
+
+.h3 {
+    color:#20DD4A;
+    text-align: center;
+}
+
+.text {
+    color: white
+}
+
+.blue {
+    color:#00D4FF
+}
+
+.green {
+    color:#20DD4A
+}
+
+.body {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mystory {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.quote {
+color:#20DD4A;
+text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.contact {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+a {
+    color:#20DD4A;
+}
+
+.flexcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillbox {
+    align-content: center;
+    padding: 5%;
+    text-align: center;
+}
+
+.skills {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.workgrid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: #0C0C0C;
+    padding: 2%;
+}
+
+.mywork {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.button {
+    background-color: #20DD4A;
+    align-self: center;
+}
