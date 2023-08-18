@@ -6,14 +6,14 @@
     <body class="body">
         <header class="header">
         <div class="logo">
-            <img src="images/logo.png" alt="logo" width="35" height="35">
+            <img class="shake" src="images/logo.png" alt="logo" width="35" height="35">
         </div>
         <div>
             <p class="blue"><strong>QUINN WATSON</strong></p>
         </div>
             <div class="navigation">
                     <div class="inline-block">
-                        <a href="#heroimg">ABOUT</a>
+                        <a href="#about">ABOUT</a>
                     </div>
                     <div class="inline-block">
                         <a href="#skills">SKILLS</a>
@@ -27,13 +27,13 @@
             </div>
         </header>
             
-        <h1 class="h1">Hi, I'm Quinn!</h1>
+        <h1 class="h1" id="about">Hi, I'm Quinn!</h1>
 
-        <section class="heroimg" id="about">
+        <section class="heroimg">
             <div class="content">
                 <img src="images/self_portrait.png" alt="self portrait">
             </div>
-            <div>
+            <div style="text-align: center;">
                 <h3 class="h3">I'm a freelance UX/UI designer working from Minnesota in the United States.</h3>
                 <p class="text">
                     Freshly graduated from the University of Minnesota’s online UX/UI boot camp. The class gave me a few projects under my belt and a good understanding of this field.
@@ -44,7 +44,7 @@
                 <p class="text"> 
                     I strive to approach challenges from perspectives others wouldn’t think of, and often come up with more useful results because of this. I like to gather as much data as possible from as many different groups as I can, especially from groups that others might not consider asking, such as individuals with various disabilities and how they interact with the world.
                 </p>
-                <button class="button">Download Resume</button>
+                <button class="button" id="btn">Download Resume</button>
             </div>
         </section>
 
@@ -76,7 +76,7 @@
             </h1>
             <div class="flexcontainer">
                 <div class="skillbox">
-                    <img src="images/logo.png" alt="logo" width="100" height="100">
+                    <img class="shake" src="images/logo.png" alt="logo" width="100" height="100">
                     <h3 class="green">
                         User Research
                     </h3>
@@ -85,7 +85,7 @@
                     </p>
                 </div>
                 <div class="skillbox">
-                    <img src="images/logo.png" alt="logo" width="100" height="100">
+                    <img class="shake" src="images/logo.png" alt="logo" width="100" height="100">
                     <h3 class="green">
                         User Interface Design
                     </h3>
@@ -94,7 +94,7 @@
                     </p>
                 </div>
                 <div class="skillbox">
-                    <img src="images/logo.png" alt="logo" width="100" height="100">
+                    <img class="shake" src="images/logo.png" alt="logo" width="100" height="100">
                     <h3 class="green">
                         Web Development
                     </h3>
@@ -152,7 +152,7 @@
                     <p class="text">
                         A redesign of the mobile version of the website for the North American Bear Center, a nonprofit organization located in Eli, MN.
                     </p>
-                    <button>View Project</button>
+                    <button class="button" id="btn">View Project</button>
                 </div>
             </div>
             
@@ -165,7 +165,7 @@
                     <p class="text">
                         Bird’s Eye is an app that allows users to search for places to visit, with an expansive tagging system that can be used to filter searches for more specific results based on the user’s wants and needs.
                     </p>
-                    <button>View Project</button>
+                    <button class="button" id="btn">View Project</button>
                 </div>
             </div>
             
@@ -178,7 +178,7 @@
                     <p class="text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
-                    <button>View Project</button>
+                    <button class="button" id="btn">View Project</button>
                 </div>
             </div>
         </section>
@@ -198,7 +198,7 @@
         <footer>
             <div class="footer">
                 <div class="inline-block">
-                    <a href="#heroimg">ABOUT</a>
+                    <a href="#about">ABOUT</a>
                 </div>
                 <div class="inline-block">
                     <a href="#skills">SKILLS</a>
@@ -212,4 +212,6 @@
             </div>
         </footer>
     </body>
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 </html>
